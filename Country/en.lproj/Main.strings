@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "Qatar"; ObjectID = "0J0-Dc-To2"; */
+"0J0-Dc-To2.text" = "Qatar";
+
+/* Class = "UINavigationItem"; title = "Choose Your Country"; ObjectID = "2ar-HT-AS5"; */
+"2ar-HT-AS5.title" = "Choose Your Country";
+
+/* Class = "UITextField"; text = "Enter Username"; ObjectID = "KfL-dL-Fh4"; */
+"KfL-dL-Fh4.text" = "Enter Username";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "NRA-CF-pyk"; */
+"NRA-CF-pyk.text" = "English";
+
+/* Class = "UIButton"; configuration.title = "LOGIN"; ObjectID = "ODl-R9-5Dq"; */
+"ODl-R9-5Dq.configuration.title" = "LOGIN";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ODl-R9-5Dq"; */
+"ODl-R9-5Dq.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QYo-jo-nfe"; */
+"QYo-jo-nfe.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Change Country"; ObjectID = "STn-sQ-mzm"; */
+"STn-sQ-mzm.configuration.title" = "Change Country";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "STn-sQ-mzm"; */
+"STn-sQ-mzm.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Choose Your Language"; ObjectID = "gL1-w3-Rm1"; */
+"gL1-w3-Rm1.title" = "Choose Your Language";
+
+/* Class = "UITextField"; text = "Enter Password"; ObjectID = "uEd-NO-xpd"; */
+"uEd-NO-xpd.text" = "Enter Password";
+
+/* Class = "UIButton"; configuration.title = "Test User"; ObjectID = "wOI-By-fLG"; */
+"wOI-By-fLG.configuration.title" = "Test User";
+
+/* Class = "UIButton"; normalTitle = "Test User"; ObjectID = "wOI-By-fLG"; */
+"wOI-By-fLG.normalTitle" = "Test User";

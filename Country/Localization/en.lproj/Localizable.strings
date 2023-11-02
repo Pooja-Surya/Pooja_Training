@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Country
+
+  Created by C S Pooja on 02/11/23.
+  
+*/
+
+"Strings_jordan" = "Jordan";
+"Strings_egypt" = "Egypt";
+"Strings_palestine" = "Palestine";
+"Strings_lebanon" = "Lebanon";
+"Strings_qatar" = "Qatar";
+"Strings_uae" = "UAE";
+"Strings_algeria" = "Algeria";
+
+"Strings_testUser" = "Test User";
+"Strings_loginButton" = "LOGIN";
+"Strings_userName" = "Enter Username";
+"Strings_password" = "Enter Password";
+"Strings_countryButton" = "Change Country";
