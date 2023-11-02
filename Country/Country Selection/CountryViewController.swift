@@ -54,7 +54,10 @@ extension CountryViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CountrySelectionCell", for: indexPath) as? CountrySelectionCell
         let country = countryArray[indexPath.row]
-        cell?.fillCustomCell(imageIcon: country.myImage, imageText: country.text)
+        //set localized name
+        if let localizedname = localizedCountryName[country]{
+            cell?.fillCustomCell(imageIcon: country.myImage, imageText: localizedname)
+        }
         cell?.myCountryImage.layer.cornerRadius = cell!.myCountryImage.frame.size.height / 2
         cell?.myCountryView.layer.cornerRadius = cell!.myCountryView.frame.height / 2
         cell?.myCountryImage.layer.borderWidth = 0.25

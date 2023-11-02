@@ -78,30 +78,20 @@
 		890A3B702AEA7EAF0047CA15 /* Country */ = {
 			isa = PBXGroup;
 			children = (
-				89A2F2E82AF37792002EBD56 /* Localization */,
-				89A0D34D2AEB7A8B00FB4982 /* CountryDataModel.swift */,
-				89B643A92AEFE4A50062901C /* CountryLanguageModel.swift */,
-				890A3B892AEA98950047CA15 /* CustomCell */,
-				89DF85F02AF120CF00D9252B /* LanguageCell */,
 				890A3B712AEA7EAF0047CA15 /* AppDelegate.swift */,
 				890A3B732AEA7EAF0047CA15 /* SceneDelegate.swift */,
 				890A3B752AEA7EAF0047CA15 /* ViewController.swift */,
+				89A800522AF3C49900EF9816 /* Country Selection */,
+				89A800562AF3C55700EF9816 /* Country Cell */,
+				89A800542AF3C4E700EF9816 /* Language Selection */,
+				89DF85F02AF120CF00D9252B /* LanguageCell */,
 				890A3B772AEA7EAF0047CA15 /* Main.storyboard */,
 				890A3B7A2AEA7EB00047CA15 /* Assets.xcassets */,
 				890A3B7C2AEA7EB00047CA15 /* LaunchScreen.storyboard */,
 				890A3B7F2AEA7EB00047CA15 /* Info.plist */,
+				89A2F2E82AF37792002EBD56 /* Localization */,
 			);
 			path = Country;
-			sourceTree = "<group>";
-		};
-		890A3B892AEA98950047CA15 /* CustomCell */ = {
-			isa = PBXGroup;
-			children = (
-				89A0D34B2AEB729500FB4982 /* CountryViewController.swift */,
-				890A3B8A2AEA98C90047CA15 /* CountrySelectionCell.swift */,
-				890A3B8B2AEA98C90047CA15 /* CountrySelectionCell.xib */,
-			);
-			path = CustomCell;
 			sourceTree = "<group>";
 		};
 		89A2F2E82AF37792002EBD56 /* Localization */ = {
@@ -113,10 +103,52 @@
 			path = Localization;
 			sourceTree = "<group>";
 		};
-		89DF85F02AF120CF00D9252B /* LanguageCell */ = {
+		89A800522AF3C49900EF9816 /* Country Selection */ = {
+			isa = PBXGroup;
+			children = (
+				89A0D34B2AEB729500FB4982 /* CountryViewController.swift */,
+				89A800532AF3C4BA00EF9816 /* Model */,
+			);
+			path = "Country Selection";
+			sourceTree = "<group>";
+		};
+		89A800532AF3C4BA00EF9816 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89A0D34D2AEB7A8B00FB4982 /* CountryDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89A800542AF3C4E700EF9816 /* Language Selection */ = {
 			isa = PBXGroup;
 			children = (
 				89DF85EE2AF0BCD200D9252B /* LanguageViewController.swift */,
+				89A800552AF3C4FD00EF9816 /* Model */,
+			);
+			path = "Language Selection";
+			sourceTree = "<group>";
+		};
+		89A800552AF3C4FD00EF9816 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89B643A92AEFE4A50062901C /* CountryLanguageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89A800562AF3C55700EF9816 /* Country Cell */ = {
+			isa = PBXGroup;
+			children = (
+				890A3B8A2AEA98C90047CA15 /* CountrySelectionCell.swift */,
+				890A3B8B2AEA98C90047CA15 /* CountrySelectionCell.xib */,
+			);
+			path = "Country Cell";
+			sourceTree = "<group>";
+		};
+		89DF85F02AF120CF00D9252B /* LanguageCell */ = {
+			isa = PBXGroup;
+			children = (
 				89B643A62AEFE0020062901C /* LanguageTableViewCell.xib */,
 				89B643A52AEFE0020062901C /* LanguageTableViewCell.swift */,
 			);
