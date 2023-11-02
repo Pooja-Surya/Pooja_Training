@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Strings : String{
+enum Strings : String {
     case jordan
     case egypt
     case palestine
@@ -15,10 +15,8 @@ enum Strings : String{
     case qatar
     case uae
     case algeria
-    
     case arabic
     case english
-    
     case testUser
     case loginButton
     case userName
